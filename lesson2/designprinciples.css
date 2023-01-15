@@ -1,0 +1,180 @@
+body {
+    font-family: 'Arvo', serif;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: xx-large
+}
+
+section#content {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(20, 200px);
+}
+
+#hd1 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+#img1 {
+    grid-row: 2/3;
+    
+}
+#cap1 {
+    grid-row: 2/3;
+  
+}
+#hd2 {
+    grid-row: 6/7;
+}
+#img2 {
+    grid-row: 7/8;
+}
+#cap2 {
+    grid-row: 7/10;
+}
+#hd3 {
+    grid-row: 11/12;
+}
+
+#img3 {
+    grid-row: 12/13;
+}
+#cap3 {
+    grid-row: 12/13;
+}
+#img4 {
+    grid-row: 13/14;
+}
+#cap4 {
+    grid-row: 13/14;
+}
+#img5 {
+    grid-row: 17/18;
+}
+#cap5 {
+    grid-row: 17/18;
+}
+header {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column: 1/2;
+
+}
+
+body section h2 {
+	color: #536878;
+}
+
+section.heading {
+    grid-column: 1 / 4;
+ 
+}
+
+
+
+
+
+
+img.mobile-screenshot {
+    width: 300px;
+    outline: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    padding: 5px;
+    grid-column: 1/2;
+    
+}
+section.cap-section{
+    grid-column-start: span 1;
+    grid-column-end: 3;
+ 
+    grid-column: 2/4;
+    margin: 15%;
+
+}
+
+img.mobile-screenshot-wide {
+    width: 70%;
+    outline: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    padding: 5px;
+}
+
+
+/*
+*/
+section.heading {
+    
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1080px) and (min-width: 640px){
+
+    section#content {
+        color: rgb(34, 150, 127);
+    }
+    section.cap-section {
+        margin-top: 3%;
+        margin-bottom: 10%;
+    
+    }
+    
+    p.caption {
+     
+        max-width: 300px;
+    
+        margin-top: 5%;
+    
+    }
+    header {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column: 1/2;
+    
+    }
+    
+    body section h2 {
+        color: #21689e;
+    }
+    
+    section.heading {
+        grid-column: 1 / 4;
+     
+    }
+    
+}
+@media screen and (max-width: 640px){
+    section#content {
+        display: flex;
+        max-width: auto;
+        
+        flex-direction: column;
+       color: rgb(83, 42, 122);
+    }
+    section.flex {
+
+        justify-content: center;
+    }
+    
+    section.cap-section {
+        margin-top: 3%;
+        margin-bottom: 10%;
+    
+    }
+    
+    p.caption {
+     
+        max-width: 300px;
+    
+        margin-top: 5%;
+    
+    }
+    
+}
