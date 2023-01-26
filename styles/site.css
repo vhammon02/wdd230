@@ -13,11 +13,14 @@ header {
 #portrait {
     margin: 0 auto;
     max-width: 50%;
-    border-radius: 50%;
-
+    border-radius: 15%;
+    max-height: 300px;
+    padding: 10px;
+    border: 4px black;
 }
 
 #content {
     margin: 0 auto;
-    width: 800px;
+    width: auto;
+
 }

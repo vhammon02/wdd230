@@ -1,6 +1,6 @@
 @media screen and (min-width: 640px){
     header{
-        background-color: blueviolet;
+      
         border: 4px black solid;
         max-width: auto;
         
@@ -8,7 +8,7 @@
 }
 @media screen and (min-width: 992px){
     header{
-        background-color: rgb(43, 226, 147);
+        
         border: 4px black solid;
         max-width: auto;
         

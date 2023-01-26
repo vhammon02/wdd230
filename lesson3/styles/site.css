@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Inter:wght@200;400;700&family=Source+Sans+Pro:wght@300;600&family=Source+Serif+Pro:wght@600&display=swap');
+
+
+body {
+    font-family: 'Arvo', serif;
+    font-family: 'Inter', sans-serif;
+    display: block;
+}
+
+nav{
+    background-color: aquamarine;
+    border: 4px black;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+li {
+   
+    padding: 10px;
+    border: 1px solid black;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+@media screen and (min-width: 1080px) {
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav{
+        background-color: aquamarine;
+        
+    }
+
+}
