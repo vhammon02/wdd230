@@ -38,6 +38,11 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+#hamburger-menu{
+    background-color: aquamarine;
+    border: 0;
+    font-size: 2em;
+}
 
 @media screen and (min-width: 1080px) {
 
@@ -50,5 +55,10 @@ html {
         background-color: aquamarine;
         
     }
+
+    #hamburger-menu{
+        display: none;
+    }
+
 
 }
