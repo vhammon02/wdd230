@@ -214,7 +214,7 @@ body {
 .main-hero{
     grid-area: h;
     position: relative;      
-    background-image: url("/chamber/images/Carylake.jpg") ; 
+    background-image: url("/chamber/images/CaryChamber900.jpg") ; 
     background-position: center;
     text-align: center;
     height: 400px;

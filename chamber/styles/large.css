@@ -65,7 +65,7 @@
     .main-hero{
         grid-area: h;
         position: relative;      
-        background-image: url('/images/VonPortrait.png');    
+        background-image: url('/chamber/images/CaryChamber900.jpg');    
         background-position: center;
         height: auto;   
        
@@ -100,7 +100,7 @@
     }
 
     .spotlight1,.spotligh2,.spotlight3 {
-        width: 18vh;
+        width: 100%;
     }
     .main-join {
         line-height: 100px;

@@ -45,8 +45,10 @@
         grid-area: h;
         position: relative;      
         height: 600px; 
-        background-image: url("/chamber/images/Cafe.jpg");   
+        background-image: url("/chamber/images/CaryChamber900.jpg");   
         padding: 2em; 
+        width: 100%;
+        background-repeat: no-repeat;
     }
 
     .footer-content{
