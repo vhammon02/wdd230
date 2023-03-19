@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="chamber of commerce website">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="./script/head.js" defer=""></script>
+    
+    <script src="./script/home.js" defer=""></script>
+    <title>Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <!--
+        <ul id="navbar">
+            <li><a href="index.html"><div id="logo">
+                <img class="logo" src="images/CaryCommerceLogo.jpg" alt="Cary, North Carolina Chamber of Commerce Logo">
+                <h3>Cary Chamber of Commerce</h3>
+            </div></a></li>
+            <li><a href="dicover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        -->
+        <div class="header-top">
+            
+            <div id="logo">
+                <a class="active" href="index.html"><img class="logo" src="images/CaryCommerceLogo.jpg" alt="Cary, North Carolina Chamber of Commerce Logo"></a>
+            </div>
+            <div class="title">
+                <h1>Cary, North Carolina</h1>
+                <h3>Chamber of Commerce</h3>
+            </div>
+            <div class="header-icons">
+                <a href="https://www.instagram.com" target="_blank"><img id="social" src="./images/Twitter social icons - circle - blue.png"></a>
+                <a href="https://www.pinterest.com" target="_blank"><img id="social" src="./images/pintrest.jpg"></a>
+            </div>
+            
+        </div>
+        
+        <nav>
+            <button id="hamburger-menu">
+                <span id="menu-open">≡</span>
+                <span id="menu-closed">X</span>
+            </button>
+            <ul>
+                <li><a href="dicover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-today">
+            <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+        </div>
+    </header>
+
+    <main class="join-main">
+        <section class="join">
+            <div>
+                
+            <form method="GET" action="thankyou.html">
+                <h2>Apply Now!</h2>
+              <label class="myinput">First Name*<input type="text" name="fname" required=""></label>
+              <label class="myinput">Last Name*<input type="text" name="lname" required=""></label>
+              <label class="myinput">Title<input type="text" name="title" pattern="[A-Za-z -]{7,}"></label>
+              <label class="myinput">Email*<input type="email" name="email" required=""></label>
+              <label class="myinput">Cell Phone*<input type="tel" name="cellphone" required=""></label>
+              <label class="myinput">Business Name*<input type="text" name="bizname" required=""></label>          
+              <h3>Membership Level</h3>
+              <label class="myradio"><input type="radio" name="level" value="nonprofit">Non-Profit</label>
+              <label class="myradio"><input type="radio" name="level" value="bronze">bronze</label>
+              <label class="myradio"><input type="radio" name="level" value="silver">silver</label>
+              <label class="myradio"><input type="radio" name="level" value="gold">gold</label>
+              <label class="myinput">Business Description<textarea name="description" cols="40" rows="5"></textarea></label>
+              <label><input id="currentdate" type="hidden" name="currentdate" value=""></label>
+              <input class="mysubmit" type="submit" value="Join the Chamber!">
+            </form>
+          </div>
+          <div class="joinB">
+            <h2>Overall benifits</h2>
+            <h3>Credibility</h3>
+            <p>Joining the Chamber of Commerce will associate your buisness with a reputation for standing up for the community and its economy.</p>
+            <h3>Making Connections</h3>
+            <p> Through the Chamber of Commerce you gain many oppurtunites to make connections with other well established buisnesses and the community as a whole.</p>
+            <h3>Exposure</h3>
+            <p>Being a memeber of the Chamber of Commerce you have access to the resources to make your buisness known to the community and internet searches.</p>
+            <h2>Membership Levels Benefits</h2>
+            <h3>NP Membership</h3>          
+            <ul>
+              <li>For non profit organizations and there is no fee</li>
+            </ul>
+            <h3>Bronze Buisness Membership [recommended for 1-15 employees]</h3>
+            <ul>
+              <li>Local Buisness newsletter</li>          
+              <li>7% discount on advertising</li>          
+              <li>Fee of $200/month</li>
+            </ul>
+            
+            <h3>Silver Business Membership [recommended for 16-100 employees]</h3>
+            <ul>
+              <li>Local Buisness newsletter</li>    
+              <li>10% discount on advertising</li>
+              <li>Free participation in the trade fair</li>
+              <li>Fee of $800/month</li>
+            </ul>
+    
+            <h3>Gold Buisness Membership [recomended for 101-500+]</h3>
+            <ul>
+              <li>Local Buisness newsletter</li>             
+              <li>15% discount on advertising</li>          
+              <li>Free participation in the trade fair</li>               
+              <li>Fee of $32000/month</li>
+            </ul>
+          </div>
+          </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">   
+            <div id="logo">
+                <a class="active" href="index.html"><img class="logo" src="images/CaryCommerceLogo.jpg" alt="Cary, North Carolina Chamber of Commerce Logo"></a>
+            </div>
+            <div class="title">
+                <h1>Cary, North Carolina</h1>
+                <h3>Chamber of Commerce</h3>
+            </div>
+            <div class="header-icons">
+                <a href="https://www.instagram.com" target="_blank"><img id="social" src="./images/Twitter social icons - circle - blue.png"></a>
+                <a href="https://www.pinterest.com" target="_blank"><img id="social" src="./images/pintrest.jpg"></a>
+            </div>
+        </div>  
+        <div class="footer-base" >
+            <p>
+                &copy;
+                <span id="currentyear">2023</span>
+                | Devon M. Hammon | Rexburg, ID | Last updated: 
+                <spand id="lastmodified">03/18/2023 18:51:45</spand>
+            </p>
+            <p></p>
+        </div> 
+    </footer>
+</body>
+</html>

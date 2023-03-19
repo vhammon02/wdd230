@@ -437,3 +437,160 @@ div {
 .discover-main section {    
     margin: 1rem;
 }
+
+.join{
+    display: grid;    
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  }
+
+  .join > div{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px black solid;
+    border-radius: 5px;  
+    width: 90%;
+    min-width: 400px;
+  }
+
+label.myinput{
+    display:block;
+    padding-top: 1rem;
+  }
+  
+  label.myinput input, label.myinput textarea{
+    display:block;
+    font-size: 1.2rem;
+    padding: .5rem;
+    width: 20rem;
+    max-width: 20rem;
+  }
+  
+  label.myradio{
+    display: block;
+    margin-right: .2rem;
+    font-size: 1.3rem;  
+    padding-top: .5rem;
+  }
+  
+  label.myradio input{
+    margin-right: 1rem;
+  }
+  
+  .mysubmit{
+    background-color: #338;
+    color: white;
+    margin: 1rem 0 0 0;
+    padding: .5rem;
+    font-size: 1.5rem;
+  }
+  
+  label.myinput input:required{
+    border-color: #922;
+  }
+  
+  .join-confirm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+
+/* Directory Page Stuff */
+.directory-main{
+    width: 100%;
+}
+
+#directory-selector{
+    width: 100%;
+    text-align: center;
+}
+
+#directory-selector button{
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 5px;
+    background-color: grey;
+    border: 1px black solid;
+}
+
+#directory-selector button.active{
+    background-color: #032940;
+}
+
+/* Cards view */
+
+.directory-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
+}
+
+.directory-cards section{
+    text-align: center;    
+    border: 2px solid grey;    
+    width: 300px;
+    background-color: #0C4CA4;
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.directory-cards .gold-member{
+    box-shadow: inset 1rem 1rem rgb(216, 169, 15);
+}
+
+/* List View */
+
+.directory-list{    
+    display: grid;
+    justify-items: center;   
+    padding: 1rem;    
+}
+
+.directory-list section img{
+    display: none;
+}
+
+.directory-list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    width: 70%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.directory-list section:nth-child(odd) {
+    background-color: paleturquoise;
+}
+
+.directory-list section:nth-child(even) {
+    background-color: azure;
+}
+
+.thanks {
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    display: block;
+    border: #032940 solid 4px;
+}
+
+form {
+    background-color: #F2F2F2;
+    padding: 50px;
+}
+
+.join {
+    background-color: #8aa8e0;
+}
+
+.joinB {
+    background-color: #F2F2F2;
+
+}
+.joinB h3 {
+    color: #0C4CA4;
+}
