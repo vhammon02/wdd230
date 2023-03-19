@@ -7,17 +7,12 @@
     min-width: 480px;
     margin: 0 auto;
     
-    padding: 1rem;
+
   }
 
-    body {
-            
-            margin: auto;
-            width: 100%;
-            
-            padding: 10px;
-          
-    }
+
+
+  
    
     nav ul{
         display: flex;
@@ -26,9 +21,9 @@
 
     .home-main{
         display: grid;
-        grid-template-areas: "e h h x"
-                             "w h h x"
-                             "j n n x";
+        grid-template-areas: "e h h h l x"
+                             "w h h h l x"
+                             "j n n n l x";
     }    
 
     .spotlight3{    
@@ -65,33 +60,41 @@
     .main-hero{
         grid-area: h;
         position: relative;      
-        background-image: url('/chamber/images/CaryChamber900.jpg');    
+        background-image: url('/chamber/images/CaryChamber1200.jpg');    
         background-position: center;
-        height: auto;   
+        height: auto;
+        background-size:cover;  
        
     }
     
 
     .main-hero{
-        width: 98%;
+        width: auto;
         margin: auto 0;
         background-repeat: no-repeat;
         
     }
     .main-spotlight {
-        width: 90%;
+        width: auto;
+        grid-area: x;
     }
-
+    
+    .main-news , .main-hero {
+     
+        
+    }
 
 
     .main-weather, .main-event, .main-join {
-        width: 93%;
+        width:auto;
         color: #f2f2f2; 
         
+        
     }
-    
-    header, footer {
-        width: 100%;
+
+    header, footer, main {
+        max-width: none;
+        min-width: 1080px;
         
     }
 
@@ -100,7 +103,7 @@
     }
 
     .spotlight1,.spotligh2,.spotlight3 {
-        width: 100%;
+        width: auto;
     }
     .main-join {
         line-height: 100px;
