@@ -1,4 +1,4 @@
-/ Show the meet-greet message on Tue/Thu
+// Show the meet-greet message on Tue/Thu
 // Date.getDay() uses a 0 based index to return the day of the week
 var messagedate = new Date();
 if (messagedate.getDay() == 2 || messagedate.getDay() == 4) {
