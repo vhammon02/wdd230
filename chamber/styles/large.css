@@ -1,0 +1,120 @@
+@media (min-width: 1130px){
+
+    header,
+    footer,
+    main {
+    max-width: 4000px;
+    min-width: 480px;
+    margin: 0 auto;
+    
+    padding: 1rem;
+  }
+
+    body {
+            
+            margin: auto;
+            width: 100%;
+            
+            padding: 10px;
+          
+    }
+   
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .home-main{
+        display: grid;
+        grid-template-areas: "e h h x"
+                             "w h h x"
+                             "j n n x";
+    }    
+
+    .spotlight3{    
+        display: block;    
+    } 
+
+    .main-spotlight{
+        flex-direction: column; 
+        color: #f2f2f2;       
+    }
+
+    .main-spotlight div{
+        height: 33%;
+    }
+
+    #hamburger-menu{
+        display: none;
+    }
+
+    nav ul li a{
+        padding: .5rem;
+        font-size: 1rem;
+    }    
+
+    nav ul{
+        position: static;
+        width: 95%;
+        margin-left: 2em;
+        margin-right: 2em;
+      
+        
+    }    
+
+    .main-hero{
+        grid-area: h;
+        position: relative;      
+        background-image: url('/chamber/images/CaryChamber.jpg');    
+        background-position: center;
+        height: auto;   
+       
+    }
+    
+
+    .main-hero{
+        width: 98%;
+        margin: auto 0;
+        background-repeat: no-repeat;
+        background-position: ;
+    }
+    .main-spotlight {
+        width: 90%;
+    }
+
+
+
+    .main-weather, .main-event, .main-join {
+        width: 93%;
+        color: #f2f2f2; 
+        
+    }
+    
+    header, footer {
+        width: 100%;
+        
+    }
+
+    .centered-image {
+        width: 100%;
+    }
+
+    .spotlight1,.spotligh2,.spotlight3 {
+        width: 18vh;
+    }
+    .main-join {
+        line-height: 100px;
+        color: #f2f2f2; 
+        
+        text-align: center;
+    }
+    .main-join p {
+        line-height: 1.5;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+.discover-image{
+    display: flex;
+    width: 100%;
+}

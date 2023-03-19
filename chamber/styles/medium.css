@@ -1,0 +1,90 @@
+@media (min-width: 800px){
+    
+    img.logo{
+    
+        width: 10vh;
+        padding: 2em;
+      }
+
+    .main-join{
+        display: block;
+        width: 100vh;
+    }   
+    
+    .main-hero, .main-spotlight, .home-main{
+        width: 100vh;
+        margin: auto 0;
+    }
+
+    .spotlight1, .spotlight2, .spotlight3 {
+        width: 30%;
+    }
+
+    .home-main{
+        margin: -10px;
+        display: grid;
+        grid-template-areas: "h h h"
+                             "n n n"
+                             "x x x"
+                             "j j j"
+                             "e e w";
+                        
+        
+    }
+
+    .centered-image {
+        width: 200px;
+    }
+
+
+    .main-spotlight{
+        display: flex;
+    }
+
+    .main-hero{
+        grid-area: h;
+        position: relative;      
+        height: 600px; 
+        background-image: url("/chamber/images/CaryChamber1200.jpg");   
+        padding: 2em; 
+    }
+
+    .footer-content{
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .footer-base{        
+        width: 100%;
+    }
+    
+    .footer-contact{
+        width: 80;
+    }
+    
+    .footer-map{
+        width: 20%;
+    }    
+
+    header,
+    footer,
+    main
+   {
+      
+      min-width: 100vh;
+      margin: 0 auto;
+      
+      padding: 1rem;
+      
+      max-width: none;
+      
+
+    }
+    
+    .discover-image{
+        display: flex;
+        width: 95vh;
+    }
+
+
+}

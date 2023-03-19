@@ -7,6 +7,9 @@ img#social {
     padding: 5px;
 }
 
+main {
+    max-width: 100%;
+}
 
 body {
   
@@ -53,7 +56,7 @@ body {
 }
 
   nav {
-    background-color: #567BBF;
+    background-color: #032940;
     max-width: 832px; 
     min-width: 480px;
     margin: 0 auto;
@@ -102,8 +105,9 @@ body {
   }
   
   img.logo{
-    border: 2px solid #032940;
-    width: 80px;
+   
+    width: 10vh;
+    padding: 2em;
   }
   
   nav ul li.active a{
@@ -119,14 +123,17 @@ body {
     
 }
 
-
+.discover-image {
+    width: 500px;
+}
 
   /* Hamburger menu stuff */
   
   #hamburger-menu{
-    background-color: #567BBF;  
+    background-color: #032940;  
     font-size: 2rem;
     border: 0;
+    color: #0C4CA4;
   }
   
   #navbar{
@@ -186,6 +193,7 @@ body {
     padding: 1rem;
     margin: .5rem;
     background-color: #567BBF;
+    
 }
 
 .home-main div{
@@ -200,15 +208,18 @@ body {
 
 .home-main img{
     max-width: 100%;
+    border: 2px black solid;
 }
 
 .main-hero{
     grid-area: h;
     position: relative;      
-    background-image: url('../images/teton-river-900.jpg');    
+    background-image: url("/chamber/images/CaryChamber900.jpg") ; 
     background-position: center;
     text-align: center;
-    height: 400px;         
+    height: 400px;
+    color: #F2F2F2;
+          
 }
 
 .main-hero p{
@@ -251,6 +262,7 @@ body {
 
 .main-event{
     grid-area: e;
+    color: #F2F2F2;
 }
 
 .main-event img{
@@ -259,15 +271,23 @@ body {
 
 .main-news{
     grid-area: n;
+    text-align: center;
+    
 }
 
 .centered-image{
     text-align: center;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
 }
 
-.main-news img{
-    border: 2px solid black;
-}
+
+
+
 
 .main-weather{
     grid-area: w;
@@ -288,7 +308,11 @@ body {
     background-color: #8aa8e0;
     padding: .5rem;
     font-size: 1.5rem;    
-    width: 100%;
+    width: 100px;
+}
+
+img.newsimg {
+    width: 50px;
 }
 
 .main-join button a{
@@ -377,4 +401,31 @@ body {
     text-align: center;    
 }
 
+.discover-main section{
+    border: 2px black solid;
+    margin: 1rem;
+}
 
+.discover-image{
+    display: flex;
+    width: 75vh;
+}
+#disc {
+    width: 30vh;
+}
+
+.discover-image div {    
+    margin: 1rem;
+}
+
+.discover-demographics h2 {    
+    margin: 1rem;
+}
+
+.discover-demographics h3 {    
+    margin: 1rem;
+}
+
+.discover-main section {    
+    margin: 1rem;
+}
