@@ -118,3 +118,6 @@
     display: flex;
     width: 100%;
 }
+.discover-image:hover {
+    filter: grayscale(80%);
+}

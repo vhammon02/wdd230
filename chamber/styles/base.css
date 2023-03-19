@@ -382,7 +382,6 @@ img.newsimg {
 
 
 
-
 .footer-content{
     display: flex;    
     flex-direction: column;
@@ -418,11 +417,16 @@ img.newsimg {
     margin: 1rem;
 }
 
-.discover-demographics h2 {    
+.discover-demographics h3 {    
     margin: 1rem;
+    
 }
 
-.discover-demographics h3 {    
+div {
+    border: #032940 2px;
+}
+
+.discover-demographics p {    
     margin: 1rem;
 }
 
