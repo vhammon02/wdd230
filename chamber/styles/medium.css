@@ -8,11 +8,11 @@
 
     .main-join{
         display: block;
-        width: ;
+        
     }   
     
     .main-hero, .main-spotlight, .home-main{
-        width: ;
+       
         margin: auto 0;
     }
 
@@ -45,11 +45,11 @@
         grid-area: h;
         position: relative;      
         height: 600px; 
-        background-image: url("/chamber/images/CaryChamber900.jpg");   
+        background-image: url("./CaryChamber900.jpg");   
         padding: 2em; 
         width: 100%;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 140%;
 
     }
 

@@ -79,6 +79,15 @@ body {
     color: #032940;
   }
   
+a {
+    text-decoration: none;
+    color: #15d2dc;
+}
+
+a:visited {
+    color: #2d6fcb;
+}
+
   nav a {
     display: block;
     padding: 0.5rem;
@@ -214,7 +223,7 @@ body {
 .main-hero{
     grid-area: h;
     position: relative;      
-    background-image: url("/chamber/images/CaryChamber900.jpg") ; 
+    background-image: url("./CaryChamber900.jpg") ; 
     background-position: center;
     text-align: center;
     height: 400px;
@@ -673,3 +682,36 @@ form {
     background-color: #F2F2F2;
 }
 
+#contact {
+    display: block;
+    text-align: center;
+    color: #032940;
+    margin: 100px auto;
+    background-color: #8aa8e0;
+    padding-bottom: 4em;
+}
+
+#contact h1{
+    color: #F2F2F2;
+    margin-bottom: 100px;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #0C4CA4;
+    
+}
+
+#contact hr{
+    margin-bottom: 100px;
+    display: none;
+}
+
+#contact h3{
+    margin: 50px;
+    margin-bottom: 100px;
+
+}
+
+#hr2 {
+    margin-bottom: 250px;
+}

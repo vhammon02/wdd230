@@ -60,13 +60,21 @@
     .main-hero{
         grid-area: h;
         position: relative;      
-        background-image: url('/chamber/images/CaryChamber1200.jpg');    
+        background-image: url('./CaryChamber1200.jpg');    
         background-position: center;
         height: auto;
         background-size:cover;  
        
     }
     
+    button {
+        width: 50%;
+        height: 5%;
+    }
+
+    .main-hero h3 {
+        height: 2%;
+    }
 
     .main-hero{
         width: auto;

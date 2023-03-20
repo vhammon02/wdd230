@@ -6,11 +6,12 @@ if (messagedate.getDay() == 2 || messagedate.getDay() == 4) {
 }
 
 // Wind chill stuff
-function setWindChill(windSpeed, temperature) {
+function setWindChill(windSpeed, temperature, humidity) {
   // Get the DOM objects that are dynamic
   let temperatureSpan = document.querySelector("#temperature");
   let windSpeedSpan = document.querySelector("#windspeed");
   let windChillSpan = document.querySelector("#windchill");
+  let humiditySpan = document.querySelector("#humidity");
 
   // Set up the wind chill content
   let windChillMessage = "N/A";
@@ -23,6 +24,7 @@ function setWindChill(windSpeed, temperature) {
   temperatureSpan.textContent = temperature;
   windSpeedSpan.textContent = windSpeed;
   windChillSpan.innerHTML = windChillMessage;
+  humiditySpan.textContent = humidity;
 }
 
 // select HTML elements in the document
@@ -31,7 +33,7 @@ const weatherDesc = document.querySelector("#weatherdesc");
 
 
 const LAT = "35.7915";
-const LON = "78.7811";
+const LON = "-78.7811";
 const APIKEY = "53cd406f2feca9610d47d8b30825921b";
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`;
 
@@ -44,7 +46,7 @@ function displayResults(weatherData) {
   weatherIcon.setAttribute('src', iconsrc);
   weatherIcon.setAttribute('alt', desc);
   weatherDesc.textContent = main; 
-  setWindChill(weatherData.wind.speed.toFixed(0), weatherData.main.temp.toFixed(0));
+  setWindChill(weatherData.wind.speed.toFixed(0), weatherData.main.temp.toFixed(0), weatherData.main.humidity.toFixed(0));
 }
 
 async function getTheWeather() {
