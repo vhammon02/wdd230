@@ -5,7 +5,7 @@
             "address" : "3287 NW Cary Pkwy Suite 121, Morrisville, NC 27560",
             "phone" : "547-834-1O93",
             "website" : "mmlaundrycary.com",
-            "imgname" : "/chamber/images/directory/laundry.jpg",
+            "imgname" : "./images/directory/laundry.jpg",
             "memberlvl" : "gold",
             "years" : "6",
             "category" : "laundrymat"
@@ -16,7 +16,7 @@
             "address" : "2938 research triangle dr, Cary, NC 27513",
             "phone" : "8O8-934-9O99",
             "website" : "HardyHardware.net",
-            "imgname" : "/chamber/images/directory/hardware.jpg",
+            "imgname" : "./images/directory/hardware.jpg",
             "memberlvl" : "gold",
             "years" : "9",
             "category" : "retail"
@@ -27,7 +27,7 @@
             "address" : "239 S Christmas Ln, Cary NC 27513",
             "phone" : "238-238-9O72",
             "website" : "karmanfurniturestore.com",
-            "imgname" : "/chamber/images/directory/furniture.jpg",
+            "imgname" : "./images/directory/furniture.jpg",
             "memberlvl" : "gold",
             "years" : "2",
             "category" : "retail"
@@ -38,7 +38,7 @@
             "address" : "1907 NW Maynard Rd, Cary, NC 27513",
             "phone" : "123-456-7890",
             "website" : "classcoffee.com",
-            "imgname" : "/chamber/images/directory/Cafe.jpg",
+            "imgname" : "./images/directory/Cafe.jpg",
             "memberlvl" : "silver",
             "years" : "2",
             "category" : "resturaunt"
@@ -49,7 +49,7 @@
     "address" : "1910 NW Cary Pkwy Suite 121, Morrisville, NC 27560",
     "phone" : "098-765-4321",
     "website" : "moesbarberscary.com",
-    "imgname" : "/chamber/images/directory/barber.jpg",
+    "imgname" : "./images/directory/barber.jpg",
     "memberlvl" : "silver",
     "years" : "4",
     "category" : "salon/barber"
@@ -60,7 +60,7 @@
     "address" : "403 pleasantview Rd, Cary, NC 27513",
     "phone" : "4O4-322-O384",
     "website" : "fandggrocery.com",
-    "imgname" : "/chamber/images/directory/grocery.jpg",
+    "imgname" : "./images/directory/grocery.jpg",
     "memberlvl" : "silver",
     "years" : "4",
     "category" : "grocery"
@@ -71,7 +71,7 @@
         "address" : "321 S Christmas Ln, Cary, NC 27513",
         "phone" : "193-9O3-4855",
         "website" : "2cutsalons.com",
-        "imgname" : "/chamber/images/directory/salon.jpg",
+        "imgname" : "./images/directory/salon.jpg",
         "memberlvl" : "silver",
         "years" : "5",
         "category" : "salon/barber"
@@ -82,7 +82,7 @@
     "address" : "1234 NW Maynard Rd, Cary, NC 27513",
     "phone" : "019-283-7465",
     "website" : "twodicedonutstruck.com",
-    "imgname" : "/chamber/images/directory/FoodTruck.jpg",
+    "imgname" : "./images/directory/FoodTruck.jpg",
     "memberlvl" : "bronze",
     "years" : "1",
     "category" : "resturaunt"
@@ -95,7 +95,7 @@
     "address" : "398 pleasantview Rd, Cary, NC 27513",
     "phone" : "193-OO3-2843",
     "website" : "bobsbirdbbq.com",
-    "imgname" : "/chamber/images/directory/bbq.jpg",
+    "imgname" : "./images/directory/bbq.jpg",
     "memberlvl" : "bronze",
     "years" : "2",
     "category" : "resturaunt"
