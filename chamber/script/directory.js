@@ -20,7 +20,7 @@ listSelector.addEventListener('click', ()=>{
     }
 });
 
-const url = "/chamber/data/business.json";
+const url = "./data/business.json";
 
 // COMPARE THIS TO THE VERSION FOUND IN THE W09 Activity: Working with JSON data and the Fetch API module
 // Using the innerHTML version is a little less Javascript intensive.
