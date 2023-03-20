@@ -79,14 +79,9 @@ body {
     color: #032940;
   }
   
-a {
-    text-decoration: none;
-    color: #15d2dc;
-}
 
-a:visited {
-    color: #2d6fcb;
-}
+
+
 
   nav a {
     display: block;
@@ -364,10 +359,13 @@ img.newsimg {
 }
 
 /** Discover page **/
-
+.discover-main {
+    width: 90%;
+}
 .discover-main section{
     border: 2px black solid;
-    margin: 1rem;
+    margin: 2rem;
+    
 }
 
 .discover-image{
@@ -422,9 +420,7 @@ img.newsimg {
     display: flex;
    
 }
-#disc {
 
-}
 
 .discover-image div {    
     margin: 1rem;
@@ -714,4 +710,11 @@ form {
 
 #hr2 {
     margin-bottom: 250px;
+}
+
+#discover-demographics {
+
+    padding: 2em;
+    margin: 1rem;
+    
 }
