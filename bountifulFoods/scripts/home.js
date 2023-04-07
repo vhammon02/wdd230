@@ -33,7 +33,7 @@ const weatherDesc = document.querySelector("#weatherdesc");
 
 
 const LAT = "33.1581";
-const LON = "117.3506";
+const LON = "-78.7811";
 const APIKEY = "53cd406f2feca9610d47d8b30825921b";
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`;
 
