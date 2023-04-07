@@ -111,10 +111,10 @@ nav {
     display: flex;
     flex-direction: column;
     list-style: none;
-    padding-inline-start: 0px;
+    padding: 1em;
     margin-block: 0px;
     width: 100%;
-    background-color: #dfdfdf;  
+    background-color: #ffffff;  
   }
   
   nav ul li {
@@ -189,7 +189,7 @@ nav ul{
   flex-direction: column;    
   width: auto;
   padding-inline-start: 0px;
-  background-color:#032940;  
+   
   z-index: 1;
 }
 
@@ -197,6 +197,7 @@ nav ul li{
   list-style: none;    
   flex: 1;
   border: 1px black solid;
+ 
 }
 
 nav ul li a{
@@ -210,7 +211,7 @@ nav ul li a{
 }
 
 nav ul li a.active{
-  background-color:#dfdfdf;      
+  background-color:#ffffff;      
 }
 
 
@@ -364,7 +365,7 @@ hr{
 }
 #summary img{
   max-width: 98vw;
- 
+  min-width: 50vw;
 }
 #summary {
   display: block;
@@ -557,4 +558,11 @@ label.myinput input:required{
   width: 200px;
   padding: 1em;
   justify-content: center;
+}
+
+#about2 {
+  display: grid;
+  margin: auto;
+  justify-content: center;
+  background-color:#2f947e;
 }

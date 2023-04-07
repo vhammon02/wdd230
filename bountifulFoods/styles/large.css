@@ -10,10 +10,13 @@
 
   }
 
-
- 
+  
+    nav{
+      all:unset;
+    }
    
     nav ul{
+        
         display: flex;
         flex-direction: row;
         
@@ -43,6 +46,11 @@
   #summary img {
     max-width: 70vh;
     margin: auto;
+  }
+
+  #summary img{
+    max-width: 98vw;
+    min-width: 90vw;
   }
 
 }
