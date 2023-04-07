@@ -10,41 +10,77 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="./scripts/head.js" defer=""></script>
-    <script src="./scripts/home.js" defer=""></script>
+    <script src="./scripts/fresh.js" defer=""></script>
+    <script src="./scripts/fresh2.js" defer=""></script>
+    <script src="./scripts/fresh3.js" defer=""></script>
 
 </head>
 <body>
-    <nav>
-        <button id="hamburger-menu">
-            <span id="menu-open">≡</span>
-            <span id="menu-closed">X</span>
-        </button>
-        <ul>
-            <li><a href="index.html".html">Home</a></li>
-            <li class="active"><a href="fresh.html">Fresh</a></li>
-            <li id="nav-logo"><a href="index.html"><img alt="Bountiful Foods Logo"></a></li>
-            <li><a href="order.html">Join</a></li>
-            <li><a href="aboutus.html">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <div id="meet-greet" class="active">Come to Fruit Fridays for a 10% dicount! *some restrictions apply</div>
+        <div class="header-top">        
+            <div class="header-logo">
+                <a href="index.html"><img src="./images/logo.png"></a>            
+              </div>          
+            <div class="header-title">
+              <h1>Bountiful Foods</h1>
+              <h2>Fresh Fruits and Produce</h2>
+            </div>
+            <div class="header-icons">
+              <a href="https://www.instagram.com" target="_blank"><img src="./images/instagram.jpg" alt="instagram logo"></a>
+              <a href="https://www.pinterest.com" target="_blank"><img src="./images/pintrest.jpg" alt="facebook logo"></a>
+            </div>
+        </div>
+        <nav>
+            <button id="hamburger-menu">
+              <span id="hamburger-x"><p>X</p></span>
+              <span id="hamburger-equiv"><p>&#9776;</p></span>
+            </button>
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="fresh.html">Fresh</a></li>
+              <li id="nav-logo"><a href="index.html"><img alt="Bountiful Foods Logo"></a></li>
+              <li><a href="thankyou.html">Orders</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
 
 
     <main>
-        <section id="main-hero">
+        <section class="join">
+            <div>
+            <form method="GET" action="thankyou.html">
+                <label class="myinput">First Name*<input type="text" name="fname" required=""></label>
+                <label class="myinput">Last Name*<input type="text" name="lname" required=""></label>
+                <label class="myinput">Email*<input type="email" name="email" required=""></label>
+                <label class="myinput">Cell Phone*<input type="tel" name="phone" required=""></label>
 
-            <div class="hero-img">
-                <h1 class="call-to-action"></h1>
-                <button type="button">Click Now!</button>
-            </div>
-            <p>About Us Text</p>
-            
-        </section>
-
-        <div id="summary">
-            <h3>Summary of Southern California</h3>
-            <p>text</p>
-        </div>
+                <h3>Fruit Options</h3>
+                <label class="myselect">
+                    <select name="fruit" id="fruit">
+                        <option>apple</option>
+                        <option>Orange</option>
+                    </select>
+                </label>
+                <label class="myselect">
+                    <select name="fruit2" id="fruit2">
+                        <option>apple</option>
+                        <option>Orange</option>
+                    </select>
+                </label>
+                <label class="myselect3">
+                    <select name="fruity" id="fruity">
+                    
+                    </select>
+                </label>
+                
+                <label class="myinput">Business Description<textarea name="description" cols="40" rows="5"></textarea></label>
+                <label><input id="currentdate" type="hidden" name="currentdate" value=""></label>
+                <input class="mysubmit" type="submit" value="Submit Order">
+            </form>
+          </div>
     </main>
 
 
@@ -52,14 +88,14 @@
     <footer>
         <div class="footer-content">   
             <div id="logo">
-                <a class="active" href="index.html"><img class="logo" src="images/" alt="Bountiful Foods Logo"></a>
+                <a class="active" href="index.html"><img class="logo" src="images/logo.png" alt="Bountiful Foods Logo"></a></a>
             </div>
             <div class="title">
                 <h1>Bountiful Foods</h1>
                 <h3>Location</h3>
             </div>
             <div class="header-icons">
-                <a href="https://www.twitter.com" target="_blank"><img id="social" src="./images/Twitter social icons - circle - blue.png"></a>
+                <a href="https://www.instagram.com" target="_blank"><img id="social" src="./images/instagram.jpg"></a>
                 <a href="https://www.pinterest.com" target="_blank"><img id="social" src="./images/pintrest.jpg"></a>
             </div>
         </div>  

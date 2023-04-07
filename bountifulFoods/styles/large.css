@@ -11,16 +11,38 @@
   }
 
 
-
-  
+ 
    
     nav ul{
         display: flex;
         flex-direction: row;
+        
     }
 
     #nav-logo {
       display:flex ;
     }
+
+    #hamburger-menu{
+      display: none;
+    }
+    #main-top {
+      background-color: #2f947e;
+      padding: 3em;
+      width: auto;
+      display: grid;    
+      grid-template-columns: 1fr 3fr 1fr;
+    
+    }
+    #summary {
+      justify-content: center;
+      display: grid;
+      
+      
+    }
+  #summary img {
+    max-width: 70vh;
+    margin: auto;
+  }
 
 }

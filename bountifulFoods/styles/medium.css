@@ -16,5 +16,29 @@
       
 
     }
+    #main-top {
+      background-color: #2f947e;
+      padding: 3em;
+      width: auto;
+      display: grid;    
+      grid-template-columns: 1fr 3fr 1fr;
+      width: auto
+    
+    }
+    .hero-img {
+      min-width: 300px;
+    }
+    .main-weather{
+      grid-area: 1fr;
+      text-align: center;
+      background-color: #dfdfdf;
+      padding: 1em;
+      margin: 2em;
+    
+    
+    }
 
+    .summary img {
+      width: auto;
+    }
 }
