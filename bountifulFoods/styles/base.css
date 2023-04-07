@@ -1,0 +1,288 @@
+
+main {
+    max-width: 100%;
+}
+
+body {
+  
+  font-family: 'Poppins', sans-serif;
+
+  min-width: 100%;
+  background-color: #ffffff;
+  }
+  
+  main {
+    background-color: #ffffff;
+  }
+
+  header,
+  footer,
+  main {
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    
+    padding: 1rem;
+  }
+  header,
+  footer {
+    background-color: #d5d5d5;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+
+  header {
+    position: relative;
+  }
+
+  header, footer{
+    background-color: #F5AC72;
+    border: 1px black solid;        
+}
+
+header{
+    position: relative;
+}
+
+.header-top{
+    display: grid;    
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.header-icons{    
+    text-align: center;
+}
+
+.header-today{
+    text-align: center;
+    background-color: #d49764;
+    padding: .25rem;
+}
+
+
+.footer-content{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-base{
+    text-align: center;
+}
+
+.footer-contact{
+    text-align: center;
+}
+
+.footer-map{
+    text-align: center;    
+}
+
+hr{
+    height: 3px;
+    background-color: #FACFAD;    
+    border: none;        
+}
+
+
+nav {
+    background-color: #ffffff;
+    max-width: 832px; 
+    min-width: 480px;
+    margin: 0 auto;
+    border: 1px solid #032940;  
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block: 0px;
+    width: 100%;
+    background-color: #ffffff;  
+  }
+  
+  nav ul li {
+    border: 1px solid #d5d5d5;
+    width: 100%;
+    color: #032940;
+  }
+  
+
+
+
+
+  nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;    
+    color: #000000;
+  }
+  
+  nav ul li a:hover{
+    background-color: rgba(0,0,0,0.2);  
+    color: #000000;
+  }
+
+  #nav-logo {
+    display: none;
+  }
+  #navbar{
+    display: none;
+  }
+  
+  #menu-open{
+    display: none;
+  }
+  
+  #menu-closed{
+    display: inline;
+  }
+  
+  #navbar.menu-active{
+    display: flex;
+  }
+  
+  #menu-open.menu-active{
+    display: inline;
+  }
+  
+  #menu-closed.menu-active{
+    display: none;
+  }
+
+  #weathericon {
+    background-color: #8aa8e0;
+}
+
+.main-weather{
+  grid-area: w;
+  text-align: center;
+}
+
+
+nav ul{
+  position: absolute;
+  bottom: -300px;
+  left: -1px;
+  display: none;
+  flex-direction: column;    
+  width: 300px;
+  padding-inline-start: 0px;
+  background-color:#ac8255;  
+  z-index: 1;
+}
+
+nav ul li{
+  list-style: none;    
+  flex: 1;
+  border: 1px black solid;
+}
+
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  background-color:#f3ba7d;  
+  font-size: 1.25rem;
+}
+
+nav ul li a.active{
+  background-color:#dda972;      
+}
+
+
+nav ul li a:hover{    
+  background-color:#dda972;      
+  color: white;
+}
+
+
+
+#hamburger-menu{
+  background-color: #d49764;
+  border: 0;    
+  margin: 0;
+  position: absolute;
+  bottom: 6px;
+  left: 0px;
+}
+
+#hamburger-x{
+  display: none;
+}
+
+#hamburger-equiv{
+  display: inline;
+}
+
+nav ul.menu-active{
+  display: flex;
+}
+
+#hamburger-x.menu-active{
+  display: inline;
+}
+
+#hamburger-equiv.menu-active{
+  display: none;
+}
+
+header, footer{
+  background-color: #F5AC72;
+  border: 1px black solid;        
+}
+
+header{
+  position: relative;
+}
+
+.header-top{
+  display: grid;    
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.header-icons{    
+  text-align: center;
+}
+
+.header-today{
+  text-align: center;
+  background-color: #d49764;
+  padding: .25rem;
+}
+
+/* Footer */
+.footer-content{
+  display: flex;    
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-base{
+  text-align: center;
+}
+
+.footer-contact{
+  text-align: center;
+}
+
+.footer-map{
+  text-align: center;    
+}
+
+hr{
+  height: 3px;
+  background-color: #FACFAD;    
+  border: none;        
+}

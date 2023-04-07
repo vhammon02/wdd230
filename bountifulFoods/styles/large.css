@@ -1,0 +1,26 @@
+@media (min-width: 1130px){
+
+    header,
+    footer,
+    main {
+    max-width: 4000px;
+    min-width: 480px;
+    margin: 0 auto;
+    
+
+  }
+
+
+
+  
+   
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #nav-logo {
+      display:flex ;
+    }
+
+}
